@@ -1,6 +1,6 @@
 # Ticket Classifier
 
-A simple NLP model that reads support ticket text and predicts which department it belongs to — Billing, Technical, HR, or General. Built for the AI/ML Intern assessment.
+A simple NLP model that reads support ticket text and predicts which department it belongs to  Billing, Technical, HR, or General. Built for the AI/ML Intern assessment.
 
 ## Files
 
@@ -45,4 +45,4 @@ Every prediction returns a confidence score (via `predict_proba`). If confidence
 
 ## What I'd improve with more time/data
 
-The dataset is only 64 examples — Naive Bayes is frequency-based, so it would benefit a lot from more real ticket data, especially for categories like General that overlap in vocabulary with others. I'd also compare against Logistic Regression, which sometimes handles overlapping vocabulary better than NB's independence assumption. Given more time I'd add proper lemmatization instead of basic text cleaning, and evaluate on a larger held-out test set for a more reliable accuracy number than the current 13-ticket split.
+The dataset is only 64 examples and Naive Bayes is frequency-based, so it would benefit a lot from more real ticket data, especially for categories like General that overlap in vocabulary with others. I'd also compare against Logistic Regression, which sometimes handles overlapping vocabulary better than NB's independence assumption. Given more time I'd add proper lemmatization instead of basic text cleaning, and evaluate on a larger held-out test set for a more reliable accuracy number than the current 13-ticket split.
