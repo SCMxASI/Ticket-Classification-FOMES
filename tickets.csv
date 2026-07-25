@@ -1,0 +1,65 @@
+text,label
+refund delayed for my last order,BILLING
+i was charged twice this month,BILLING
+billing amount is wrong on my invoice,BILLING
+payment failed but money was deducted,BILLING
+need invoice copy for last purchase,BILLING
+subscription charge not showing in my account,BILLING
+overcharged for premium plan,BILLING
+credit card declined during checkout,BILLING
+want refund for cancelled order,BILLING
+invoice not received yet,BILLING
+why is my bill higher this month,BILLING
+please cancel my auto renewal,BILLING
+money was deducted twice for one order,BILLING
+refund not processed even after a week,BILLING
+billing cycle date is wrong,BILLING
+need gst invoice for my order,BILLING
+api returns 500 error on login,TECHNICAL
+app keeps crashing after update,TECHNICAL
+unable to reset password,TECHNICAL
+getting error 404 on dashboard page,TECHNICAL
+server is down since morning,TECHNICAL
+login page not loading,TECHNICAL
+bug in search feature,TECHNICAL
+app is very slow today,TECHNICAL
+"cannot upload files, error shown",TECHNICAL
+website not opening on chrome,TECHNICAL
+getting a blank screen after login,TECHNICAL
+app not working on mobile,TECHNICAL
+cant connect to the server,TECHNICAL
+page keeps timing out,TECHNICAL
+getting a null pointer error,TECHNICAL
+app freezes when i click submit,TECHNICAL
+want to apply for internal job opening,HR
+need my salary slip for this month,HR
+how do i apply for leave,HR
+asking about company holiday list,HR
+need help with onboarding documents,HR
+want to update my bank details for payroll,HR
+question about provident fund,HR
+need experience letter,HR
+asking about notice period policy,HR
+want to know about referral bonus,HR
+need offer letter reissued,HR
+asking about maternity leave policy,HR
+want to check my leave balance,HR
+asking about work from home policy,HR
+need help updating my emergency contact,HR
+question about appraisal cycle,HR
+what are your working hours,GENERAL
+how can i contact support team,GENERAL
+just wanted to say thanks for the service,GENERAL
+asking general question about the product,GENERAL
+where is your office located,GENERAL
+do you have a mobile app,GENERAL
+how do i change my email address,GENERAL
+general query about pricing plans,GENERAL
+just checking product availability,GENERAL
+want more info about your services,GENERAL
+how do i delete my account,GENERAL
+asking if you have a referral program,GENERAL
+what languages do you support,GENERAL
+how do i download my data,GENERAL
+asking about your privacy policy,GENERAL
+just leaving general feedback about the app,GENERAL
