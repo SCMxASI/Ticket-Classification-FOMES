@@ -41,7 +41,7 @@ Type `exit` to quit.
 
 Cleaned the ticket text (lowercase, stripped punctuation/numbers), converted it to TF-IDF features using unigrams and bigrams with stopwords removed, then trained a Multinomial Naive Bayes classifier. NB was chosen because it's fast, works well on small text datasets, and is a standard baseline for this kind of classification task.
 
-Every prediction returns a confidence score (via `predict_proba`). If confidence falls below 60%, the ticket is routed to `NEEDS HUMAN REVIEW` instead of forcing a guess — mirrors how a real triage system should behave when it's not sure. A simple keyword check also tags tickets as `URGENT` or `NORMAL` based on words like "down", "urgent", "crashing".
+Every prediction returns a confidence score (via `predict_proba`). If confidence falls below 60%, the ticket is routed to `NEEDS HUMAN REVIEW` instead of forcing a guess and mirrors how a real triage system should behave when it's not sure. A simple keyword check also tags tickets as `URGENT` or `NORMAL` based on words like "down", "urgent", "crashing".
 
 ## What I'd improve with more time/data
 
